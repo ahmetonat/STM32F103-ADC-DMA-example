@@ -123,7 +123,7 @@ CFLAGS = $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-
 ifeq ($(DEBUG), 1)
 CFLAGS += -g -gdwarf-2
 # Add assembly listing of each compiled file to the build dir:
-CFLAGS += -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst))
+#CFLAGS += -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst))
 # -Wa: pass options to assembler.
 #-alms specifies:
 # -a: turn on listings
