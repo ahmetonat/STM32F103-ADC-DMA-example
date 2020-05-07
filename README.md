@@ -41,4 +41,5 @@ There are a few things that can be changed:
 - Change sampling time -> See TIM3 section in CubeMX. The processor runs at 72MHz. This is first divided in the prescaler (it is set to 7200), and further in the ARR (max count limit of timer) which is set to 1000. The overall sampling time is 100ms.
 You can modify them either in the source code or in CubeMX. If you modify in CubeMX, your changes will disappear the next time you re-generate the source from CubeMX. So it is better to do it from CubeMX.
 
-Share and enjoy!
+
+["Share and Enjoy!"](https://hitchhikers.fandom.com/wiki/Sirius_Cybernetics_Corporation)
